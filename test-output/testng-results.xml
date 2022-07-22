@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-22T10:22:04Z" name="Suite" finished-at="2022-07-22T10:22:29Z" duration-ms="25049">
+    <groups>
+    </groups>
+    <test started-at="2022-07-22T10:22:04Z" name="Accounts Page Verification" finished-at="2022-07-22T10:22:20Z" duration-ms="16180">
+      <class name="project.tests.AccountsPage">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:project.tests.AccountsPage@76d7881e]" started-at="2022-07-22T10:22:04Z" name="setup" finished-at="2022-07-22T10:22:15Z" duration-ms="11516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[103.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:project.tests.AccountsPage@76d7881e]" started-at="2022-07-22T10:22:15Z" name="setup" finished-at="2022-07-22T10:22:15Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyMyAccModule()[pri:0, instance:project.tests.AccountsPage@76d7881e]" started-at="2022-07-22T10:22:15Z" name="VerifyMyAccModule" finished-at="2022-07-22T10:22:19Z" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMyAccModule -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project.tests.AccountsPage@76d7881e]" started-at="2022-07-22T10:22:20Z" name="tearDown" finished-at="2022-07-22T10:22:20Z" duration-ms="422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project.tests.AccountsPage -->
+    </test> <!-- Accounts Page Verification -->
+    <test started-at="2022-07-22T10:22:21Z" name="Open Cart Login Page Test_chrome_90" finished-at="2022-07-22T10:22:29Z" duration-ms="7886">
+      <class name="project.tests.Test1">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:project.tests.Test1@e29f4f6]" started-at="2022-07-22T10:22:21Z" name="setup" finished-at="2022-07-22T10:22:27Z" duration-ms="6186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[103.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="set()[pri:0, instance:project.tests.Test1@e29f4f6]" started-at="2022-07-22T10:22:27Z" name="set" finished-at="2022-07-22T10:22:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="VerifyForgotPasswordLink()[pri:0, instance:project.tests.Test1@e29f4f6]" started-at="2022-07-22T10:22:27Z" name="VerifyForgotPasswordLink" finished-at="2022-07-22T10:22:27Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgotPasswordLink -->
+        <test-method signature="Login()[pri:1, instance:project.tests.Test1@e29f4f6]" started-at="2022-07-22T10:22:27Z" name="Login" finished-at="2022-07-22T10:22:29Z" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:project.tests.Test1@e29f4f6]" started-at="2022-07-22T10:22:29Z" name="tearDown" finished-at="2022-07-22T10:22:29Z" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="sendTestReports()[pri:0, instance:project.tests.Test1@e29f4f6]" started-at="2022-07-22T10:22:29Z" name="sendTestReports" finished-at="2022-07-22T10:22:29Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendTestReports -->
+      </class> <!-- project.tests.Test1 -->
+    </test> <!-- Open Cart Login Page Test_chrome_90 -->
+  </suite> <!-- Suite -->
+</testng-results>

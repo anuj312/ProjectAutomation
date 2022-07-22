@@ -17,7 +17,7 @@ public MyAccount(WebDriver driver)
 	this.driver=driver;
 }
 
-
+//MASTER
 //Edit_my_account_info_locators
 
 By EditMyAI =  By.xpath("//*[text() = 'Edit your account information']");
